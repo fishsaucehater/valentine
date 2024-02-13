@@ -1,14 +1,14 @@
 {
-  "name": "will-you-be-my-valentine",
-  "homepage": "https://fishsaucehater.github.io/valentine/",
-  "private": true,
+  "name": "valentine",
+  "homepage": "https://fishsaucehater.github.io/valentine",
+  "private": false,
   "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "predeploy": "npm run build",
-    "deploy": "vite build && gh-pages -d dist",
+    "deploy": "vite build && gh-pages -d build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
